@@ -1,0 +1,174 @@
+* {
+  margin: 0px;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 35px;
+  color: #1e293b;
+}
+
+.digital-time-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  width: 400px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-show {
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  color: #00d9f5;
+}
+
+.status {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  color: #0f172a;
+}
+
+.time-controller {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-controller {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  margin-right: 10px;
+}
+
+.time-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.btn-text {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #0f172a;
+  font-weight: bold;
+}
+
+.limit-heading {
+  font-family: Roboto;
+  font-size: 10px;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.btn-plus-or-minus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-minus-plus {
+  font-family: Roboto;
+  font-size: 23px;
+  color: #0f172a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.limit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.limit {
+  font-family: Roboto;
+  font-size: 20px;
+  background-color: #00d9f5;
+  color: #0f172a;
+  font-weight: bold;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .digital-time-container {
+    flex-direction: row;
+  }
+  .time-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .time-container {
+    width: 500px;
+    height: 450px;
+  }
+  .limit {
+    font-size: 30px;
+  }
+  .btn-minus-plus {
+    font-size: 30px;
+  }
+  .limit-heading {
+    font-size: 15px;
+  }
+  .btn-text {
+    font-size: 25px;
+  }
+}
